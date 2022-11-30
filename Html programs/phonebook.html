@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function check()
+{
+    var v1=f.fullname.value;
+    var v2=f.nickname.value;
+    var v3=f.mobile.value;
+    var v4=f.email.value;
+    var v5=f.location.value;
+    var v6=f.address.value;
+    var v7=f.dob.value;
+    var v8=f.company.value;
+    var v9=f.designation.value;
+if(var1="")
+{
+    alert("please enter fullname");
+    document.f.fullname.focus();
+    return false;
+}
+if(var2="")
+{
+    alert("please enter nickname");
+    document.f.nickname.focus();
+    return false;
+}
+if(var3="")
+{
+    alert("please enter mobile number");
+    document.f.mobile.focus();
+    return false;
+}
+if(var4="")
+{
+    alert("please enter landline number");
+    document.f.landline.focus();
+    return false;
+}
+if(var5="")
+{
+    alert("please enter email address");
+    document.f.email.focus();
+    return false;
+}
+if(var6="")
+{
+    alert("please enter address");
+    document.f.address.focus();
+    return false;
+}
+if(var7="")
+{
+    alert("please enter company name");
+    document.f.company.focus();
+    return false;
+}
+if(var8="")
+{
+    alert("please enter designation");
+    document.f.designation.focus();
+    return false;
+}
+}
+</script>
+<style>
+    form{
+
+color:white;
+
+    }
+    #footer{
+        background-color: black;
+text-align:center;
+color:yellow;
+padding: 2px;
+margin-right: 450px;
+margin-left: 500px;
+font-size: 20px;
+border: 10px; 
+border-radius: 20px;  
+
+}
+    body{
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+a{
+background-color:black;
+color:white;
+text-decoration:none;
+font-size:35px;
+border-radius:10px;
+transition:1s;
+font-weight:bolder;
+padding:6px;
+}
+a:hover{
+transform:scale(1.5);
+background-color:yellowgreen;
+}
+ .venkatesh{ 
+width: 1400px;
+box-shadow :10px;
+} 
+h1{
+font-size: 60px;
+text-shadow: 5px 5px  rgb(0, 23, 117);
+color:aqua;
+}
+h3{
+font-size:35px;
+color:white;
+text-decoration:dashed;
+border-radius:30px;
+font-weight:bolder;
+padding:6px;
+}
+label{
+margin-left:20px;
+font-size: medium;
+color: snow;
+}
+input{
+    background-color: black;
+    color:white;
+}
+</style>
+</head>
+<body background="C:\Users\91832\Desktop\Html programs\contactus.jpg">
+<div class="venkatesh">
+<h1>E-PhoneBook</h1>
+<a href="home.jsp">Home</a></a>&emsp14;&emsp14;
+<a href="addcontact.jsp"> Add Contact</a>&emsp14;&emsp14;
+<a href="editcontact.jsp">Edit Contact</a>&emsp14;&emsp14;
+<a href="searchcontact.jsp">Search Contact</a>&emsp14;&emsp14;
+<a href="deletecontact.jsp">Delete Contact</a></a>&emsp14;&emsp14;
+<a href="bulkactions.jsp">Bulk Actions</a>&emsp14;&emsp14;
+<h3 style="color:black">Add Contact</h3><p></p>
+<form action="addcontactcode.jsp"  method="get">
+<label for="Fname"><b>Full Name</b></label>
+<input type="text"placeholder="Full Name" name="fullname" id="full name"required><p></p>
+<label for="NickName"><b>Nick Name</b></label>
+<input type:"text" placeholder="Nick Name" name="nickname" id="nick Name"required><p></p>
+<label for="Mno"><b>Mobile </b></label>
+<input type:"text" placeholder="Mobile" name="mobile" id="mobile"required><p></p>
+<label for="lline"><b>Landline</b></label>
+<input type="text"placeholder="Landline" name="landline" id="landline"required><p></p>
+<label for="Email"><b>Email</b></label>
+<input type="text"placeholder="Email" name="email" id="email"required><p></p>
+<label for="Location"><b>Location</b></label>
+<input type="text"placeholder="Location" name="location" id="location"required><p></p>
+<label for="Address"><b>Address</b></label>
+<input type="text"placeholder="Address" name="address" id="address"required><p></p>
+<label for="dob"><b>Dob</b></label>
+<input type="date"placeholder="Dob" name="dob" id="dob"required><p></p>
+<label for="Company"><b>Company</b></label>
+<input type="text"placeholder="Company" name="company" id="company"required><p></p>
+<label for="Designation"><b>Designation</b></label>
+<input type="text"placeholder="Designation" name="designation" id="designation"required><p></p>
+<input type="submit"value="Submit">
+&emsp14;&emsp14;
+<input type="reset"value="Clear">
+</div>
+<div id="footer">
+Copy Rights Reserved by,Venkatesh Balasa</div>
+</form>
+</body>
+</html>

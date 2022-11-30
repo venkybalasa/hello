@@ -1,0 +1,59 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+background-color:green;
+color:white;
+padding:5px;
+margin:5px;
+border:5px 5px green;
+border-radius:10px;
+box-shadow:5px 5px black;
+}
+a{
+background-color:red;
+color:white;
+padding:5px;
+margin:5px;
+border:5px 5px green;
+border-radius:10px;
+font-size:30px;
+box-shadow:5px 5px black;
+}
+a:hover{
+background-color:green;
+opacity:0.5;
+}
+h3{
+background-color:blue;
+display:block;
+padding:5px;
+color:white;
+margin:5px;
+border-radius:10px;
+font-size:30px;
+box-shadow:5px 5px 5px black;
+}
+body{
+background:no-repeat;
+}
+</style>
+
+</head>
+<body >
+<center>
+<header>
+ background:url(contact.jpeg);no repeat  <h1>E-Phone Book</h1></header><p>
+<h3> Home</h3><p>
+<a href="home.jsp">Home</a>&emsp13;&emsp13;&emsp13;&emsp13;
+<a href="addcontact.jsp">Add Contact</a>&emsp13;&emsp13;&emsp13;&emsp13;
+<a href="viewcontact.jsp">View Contact</a>&emsp13;&emsp13;&emsp13;&emsp13;
+<a href="Updatecontact.jsp">Update Contact</a>&emsp13;&emsp13;&emsp13;&emsp13;
+<a href="deletecontact.jsp">Delete Contact</a>&emsp13;&emsp13;&emsp13;&emsp13;
+<a href="bulkcontactmanagment.jsp">Bulk Contact Managment</a>&emsp13;&emsp13;&emsp13;&emsp13;
+</center>
+</body>
+</html>

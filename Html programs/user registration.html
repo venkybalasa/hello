@@ -1,0 +1,56 @@
+<html>
+<head>
+<script>
+    function check()
+    {
+        var v1=f.uname.value;
+        var v2=f.psw.value;
+        var v3=f.email.value;
+        var v4=f.gender.value;
+        var v5=f.address.value;
+        if(v1=="")
+        {
+            alert("please insert username");
+            document.f.uname.focus();
+             
+        }
+        if(v2=="")
+        {
+            alert("please insert password");
+            document.f.psw.focus();
+            
+        }
+        
+        if(v3=="")
+        {
+             alert("please insert  mail ");
+             document.f.email.focus();
+             
+        }
+        if(v4=="")
+        {
+            alert("please insert gender");
+            document.f.gender.focus();
+           
+        }
+        if(v5=="")
+        {
+            alert("please insert address");
+            document.f.address.focus();
+           
+        }
+        else{
+            return true;
+        }
+    }
+</script>
+</head>
+<body>
+    <form action="  " method="  "  name="f" onsubmit="return check()"><p></p>
+        UserName:<input type="text" name="uname"><p></p>
+        Password:<input type="password" name="psw"><p></p>
+        Email:<input type="email" name="email"><p></p>
+        Gender:<input type="text" name="gender"><p></p>
+        Address:<input type="text" name="address"><p></p>
+        <input type="submit" value="Registration"><p></p>
+    </form></body></html>

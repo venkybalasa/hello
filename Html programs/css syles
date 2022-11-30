@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+color:blue;
+font-size:40px;
+font-family:italin;
+border-bottom:2px;
+}
+body{
+font-size:30px;
+font-type:italian;
+border-bottom:2px;
+}
+
+
+
+</style>
+</head>
+<body>
+<h1> VENKATESH</h1>
+<p> My Name Is Venkatesh</p>
+<h2>BALASA</h2>
+<P>I Am a Java Full Stack Developer</P>
+</body>
+</html>

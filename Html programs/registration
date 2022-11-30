@@ -1,0 +1,57 @@
+<html>
+<head>
+<script>
+    function check()
+    {
+        var v1=f.uname.value;
+        var v2=f.psw.value;
+        var v3=f.email.value;
+        var v4=f.gender.value;
+        var v5=f.address.value;
+        if(v1=="")
+        {
+            alert("please insert username");
+            document.f.uname.focus();
+            return false;  
+        }
+        v=/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
+        if(f.psw.value.match(v))
+        {
+            alert("please insert password");
+            document.f.psw.focus();
+            return false; 
+        }
+        v=/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
+        if(f.email.value.match(v))
+        {
+             alert("please insert required format");
+             document.f.email.focus();
+             return false;
+        }
+        if(v4=="")
+        {
+            alert("please insert gender");
+            document.f.gender.focus();
+            return false();
+        }
+        if(v5="")
+        {
+            alert("please insert address");
+            document.f.address.focus();
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+</script>
+</head>
+<body>
+    <form action="  " method="  "  name="f" onsubmit="return check()"><p></p>
+        UserName:<input type="text" name="uname"><p></p>
+        Password:<input type="password" name="psw"><p></p>
+        Email:<input type="email" name="email"><p></p>
+        Gender:<input type="text" name="gender"><p></p>
+        Address:<input type="text" name="address"><p></p>
+        <input type="sumbit" value="Registration"><p></p>
+    </form></body></html>
